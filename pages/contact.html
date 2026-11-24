@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | CyberShield - Team 6</title>
+  <meta name="description" content="Contact Team 6 of the CyberShield cybersecurity awareness project.">
+  <link rel="icon" href="../images/edited/hero-cyber-lock.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="../index.html" class="brand" aria-label="CyberShield home">
+        <img src="../images/edited/hero-cyber-lock.png" alt="CyberShield logo" class="brand-logo">
+        <span class="brand-name">Cyber<span class="accent">Shield</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="main-content.html" class="nav-link">Topics</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="before-after.html" class="nav-link">Photoshop B&amp;A</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ PAGE HEAD ============ -->
+    <section class="page-head">
+      <div class="container">
+        <p class="kicker">Get in touch</p>
+        <h1 class="page-title">Contact Team 6</h1>
+        <p class="page-lead">
+          Questions about the project, the topics or the Photoshop work? Send us a message -
+          or use one of the direct channels below.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT GRID: FORM + INFO ============ -->
+    <section class="section">
+      <div class="container contact-grid">
+
+        <!-- FORM -->
+        <div class="contact-form-card">
+          <h2>Send a Message</h2>
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required minlength="3">
+                <small class="error-msg" data-for="name">Please enter your name (at least 3 characters).</small>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                <small class="error-msg" data-for="email">Please enter a valid email address.</small>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="topic">Topic *</label>
+                <select id="topic" name="topic" required>
+                  <option value="">Choose a topic...</option>
+                  <option>Project question</option>
+                  <option>Password security</option>
+                  <option>Phishing awareness</option>
+                  <option>Data protection</option>
+                  <option>Safe internet practices</option>
+                  <option>Photoshop work</option>
+                  <option>Other</option>
+                </select>
+                <small class="error-msg" data-for="topic">Please choose a topic.</small>
+              </div>
+              <div class="form-group">
+                <label for="urgency">Urgency</label>
+                <select id="urgency" name="urgency">
+                  <option>Normal</option>
+                  <option>High - possible ongoing attack</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Are you a student of MTI? *</label>
+              <div class="radio-group">
+                <label class="radio-pill"><input type="radio" name="student" value="yes" required> Yes</label>
+                <label class="radio-pill"><input type="radio" name="student" value="no"> No</label>
+              </div>
+              <small class="error-msg" data-for="student">Please select one option.</small>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your question or report a suspicious message you received..." required minlength="10"></textarea>
+              <small class="error-msg" data-for="message">Please write at least 10 characters.</small>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <label for="privacy">I agree that my message is shared with the team for this project. *</label>
+            </div>
+            <small class="error-msg" data-for="privacy">Please tick the checkbox to continue.</small>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <p class="form-success" id="formSuccess" hidden>
+              &#10004; Thank you! Your message has been recorded. We usually reply within two working days.
+            </p>
+          </form>
+        </div>
+
+        <!-- INFO -->
+        <aside class="contact-info">
+          <h2>Direct Channels</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-ico" aria-hidden="true">&#9993;</span>
+              <div><strong>Email</strong><br>team6.cybershield@mti.edu.eg</div>
+            </li>
+            <li>
+              <span class="contact-ico" aria-hidden="true">&#127979;</span>
+              <div><strong>University</strong><br>Modern University for Technology &amp; Information (MTI)<br>Faculty of Computers &amp; AI</div>
+            </li>
+            <li>
+              <span class="contact-ico" aria-hidden="true">&#128101;</span>
+              <div><strong>Course</strong><br>Multimedia - Mini Project<br>Instructor: Tarek Soliman<br>TAs: Aya Saber, Maryam Hany</div>
+            </li>
+            <li>
+              <span class="contact-ico" aria-hidden="true">&#128337;</span>
+              <div><strong>Response Time</strong><br>Within two working days</div>
+            </li>
+          </ul>
+          <div class="contact-note">
+            <strong>Reporting a suspicious message?</strong>
+            Do not forward it to anyone. Take a screenshot, note the sender address and
+            delete it - then tell us what happened through the form.
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-alt">
+      <div class="container">
+        <p class="kicker center">Before you write</p>
+        <h2 class="section-title center">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Can I reuse the images from this website?</summary>
+            <p>The edited images are part of an educational project. The layered PSD files are included in the project folder so the editing steps can be studied.</p>
+          </details>
+          <details class="faq-item">
+            <summary>I clicked a suspicious link, what now?</summary>
+            <p>Disconnect from the internet if you entered credentials, change that password immediately (and everywhere it was reused), enable 2FA, and run an antivirus scan.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which tool did the team use for editing?</summary>
+            <p>Adobe Photoshop. Each image keeps its original version and an edited version; techniques include crop, brightness/contrast, hue/saturation, levels, unsharp mask, gradient map, vignette, curves and color grading.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Cyber<span class="accent">Shield</span></span>
+        <p>An educational cybersecurity awareness website built with HTML, CSS and Adobe Photoshop.</p>
+      </div>
+      <nav class="footer-col" aria-label="Site pages">
+        <h4>Pages</h4>
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="main-content.html">Topics</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="before-after.html">Photoshop B&amp;A</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <nav class="footer-col" aria-label="Topics">
+        <h4>Topics</h4>
+        <a href="main-content.html#cyber-intro">Cybersecurity Intro</a>
+        <a href="main-content.html#password-security">Password Security</a>
+        <a href="main-content.html#phishing-awareness">Phishing Awareness</a>
+        <a href="main-content.html#data-protection">Data Protection</a>
+        <a href="main-content.html#safe-practices">Safe Internet Practices</a>
+      </nav>
+      <div class="footer-col">
+        <h4>Project</h4>
+        <p>Team 6 &middot; G5/CS<br>Multimedia Course Mini Project<br>MTI - Faculty of Computers &amp; AI</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 CyberShield by Team 6. Educational project - not affiliated with any security vendor.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>

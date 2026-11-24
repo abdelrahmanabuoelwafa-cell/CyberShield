@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CyberShield | Cybersecurity Awareness - Team 6</title>
+  <meta name="description" content="CyberShield - A cybersecurity awareness website by Team 6 (G5/CS), MTI Faculty of Computers & AI.">
+  <link rel="icon" href="images/edited/hero-cyber-lock.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER + NAVIGATION ============ -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand" aria-label="CyberShield home">
+        <img src="images/edited/hero-cyber-lock.png" alt="CyberShield logo" class="brand-logo">
+        <span class="brand-name">Cyber<span class="accent">Shield</span></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="pages/about.html" class="nav-link">About</a>
+        <a href="pages/main-content.html" class="nav-link">Topics</a>
+        <a href="pages/gallery.html" class="nav-link">Gallery</a>
+        <a href="pages/before-after.html" class="nav-link">Photoshop B&amp;A</a>
+        <a href="pages/contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="kicker animate-up" style="--d:0">Stay safe. Stay smart.</p>
+          <h1 class="animate-up" style="--d:.08s">Your First Line of <span class="accent">Defense</span> Online</h1>
+          <p class="lead animate-up" style="--d:.16s">
+            CyberShield is an educational website that introduces basic cybersecurity concepts
+            and safe digital practices. Learn how to build strong passwords, spot phishing emails,
+            protect your personal data, and browse the internet safely.
+          </p>
+          <div class="hero-cta animate-up" style="--d:.24s">
+            <a href="pages/main-content.html" class="btn btn-primary">Explore Topics</a>
+            <a href="pages/before-after.html" class="btn btn-ghost">Photoshop Work</a>
+          </div>
+          <div class="hero-stats animate-up" style="--d:.32s">
+            <div class="stat"><span class="stat-num">5</span><span class="stat-label">Awareness Topics</span></div>
+            <div class="stat"><span class="stat-num">6</span><span class="stat-label">Edited Images</span></div>
+            <div class="stat"><span class="stat-num">6</span><span class="stat-label">PSD Sources</span></div>
+          </div>
+        </div>
+        <div class="hero-media animate-up" style="--d:.2s">
+          <img src="images/edited/hero-cyber-lock.png" alt="Glowing blue padlock hologram over a laptop - the CyberShield hero illustration" class="hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TOPICS PREVIEW (cards) ============ -->
+    <section class="section" id="topics-preview">
+      <div class="container">
+        <p class="kicker center">What you will learn</p>
+        <h2 class="section-title center">Five Security Topics, One Goal</h2>
+        <p class="section-sub center">
+          Each topic is a small, practical lesson. Together they cover the everyday habits
+          that keep your accounts, your data and your devices safe.
+        </p>
+        <div class="card-grid">
+          <article class="card lift">
+            <img src="images/edited/password-security.png" alt="Padlock with password characters orbiting around it" class="card-img">
+            <div class="card-body">
+              <h3 class="card-title">Password Security</h3>
+              <p>Why weak passwords are the number-one way accounts get hacked, and how to build strong, memorable ones.</p>
+              <a href="pages/main-content.html#password-security" class="link-more">Learn more &rarr;</a>
+            </div>
+          </article>
+          <article class="card lift">
+            <img src="images/edited/phishing-alert.png" alt="Warning concept of a phishing email with a fishing hook" class="card-img">
+            <div class="card-body">
+              <h3 class="card-title">Phishing Awareness</h3>
+              <p>How fake emails and websites trick you into handing over your credentials, and the signs that expose them.</p>
+              <a href="pages/main-content.html#phishing-awareness" class="link-more">Learn more &rarr;</a>
+            </div>
+          </article>
+          <article class="card lift">
+            <img src="images/edited/data-protection.png" alt="Glowing shield protecting folders and documents" class="card-img">
+            <div class="card-body">
+              <h3 class="card-title">Data Protection</h3>
+              <p>Backups, encryption and privacy settings: the habits that keep your personal files out of the wrong hands.</p>
+              <a href="pages/main-content.html#data-protection" class="link-more">Learn more &rarr;</a>
+            </div>
+          </article>
+          <article class="card lift">
+            <img src="images/edited/safe-browsing.png" alt="Browser window with a green shield and HTTPS padlock" class="card-img">
+            <div class="card-body">
+              <h3 class="card-title">Safe Internet Practices</h3>
+              <p>HTTPS, updates, public Wi-Fi risks and safe downloads - browse the web without exposing yourself.</p>
+              <a href="pages/main-content.html#safe-practices" class="link-more">Learn more &rarr;</a>
+            </div>
+          </article>
+          <article class="card lift">
+            <img src="images/edited/security-team.png" alt="IT security team monitoring screens in a security operations center" class="card-img card-img-wide">
+            <div class="card-body">
+              <h3 class="card-title">Cybersecurity Intro</h3>
+              <p>What cybersecurity actually means, why it matters for everyone, and how the topics below fit together.</p>
+              <a href="pages/main-content.html#cyber-intro" class="link-more">Learn more &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ THREAT TABLE (uses HTML table) ============ -->
+    <section class="section section-alt" id="threats-table">
+      <div class="container">
+        <p class="kicker center">Know your enemy</p>
+        <h2 class="section-title center">Common Digital Threats</h2>
+        <p class="section-sub center">
+          These are the threats the topics on this site train you against. The risk column shows
+          how much damage a successful attack typically causes for a normal user.
+        </p>
+        <div class="table-wrap">
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>Threat</th>
+                <th>What it is</th>
+                <th>Main Target</th>
+                <th>Risk</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Threat"><strong>Phishing</strong></td>
+                <td data-label="What it is">A fake email or website that impersonates a trusted brand to steal your login data.</td>
+                <td data-label="Main Target">Credentials &amp; card data</td>
+                <td data-label="Risk"><span class="badge badge-high">High</span></td>
+              </tr>
+              <tr>
+                <td data-label="Threat"><strong>Malware</strong></td>
+                <td data-label="What it is">Harmful software (viruses, spyware, ransomware) installed through bad downloads or links.</td>
+                <td data-label="Main Target">Devices &amp; files</td>
+                <td data-label="Risk"><span class="badge badge-high">High</span></td>
+              </tr>
+              <tr>
+                <td data-label="Threat"><strong>Weak passwords</strong></td>
+                <td data-label="What it is">Short, reused or guessable passwords that fall to automated cracking in minutes.</td>
+                <td data-label="Main Target">Accounts</td>
+                <td data-label="Risk"><span class="badge badge-high">High</span></td>
+              </tr>
+              <tr>
+                <td data-label="Threat"><strong>Public Wi-Fi snooping</strong></td>
+                <td data-label="What it is">Attackers on the same open network reading or modifying your unencrypted traffic.</td>
+                <td data-label="Main Target">Traffic on open networks</td>
+                <td data-label="Risk"><span class="badge badge-mid">Medium</span></td>
+              </tr>
+              <tr>
+                <td data-label="Threat"><strong>Data leaks</strong></td>
+                <td data-label="What it is">Your data exposed through a service you use being breached; reuse then fuels account takeover.</td>
+                <td data-label="Main Target">Personal data</td>
+                <td data-label="Risk"><span class="badge badge-mid">Medium</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TIPS / LIST SECTION ============ -->
+    <section class="section" id="quick-tips">
+      <div class="container tips-grid">
+        <div class="tips-text">
+          <p class="kicker">Quick wins</p>
+          <h2 class="section-title">Start Today: Four Habits That Matter Most</h2>
+          <ul class="check-list">
+            <li>
+              <strong>Use a password manager.</strong>
+              It creates a unique, random password for every account, so one leaked password never unlocks anything else.
+            </li>
+            <li>
+              <strong>Turn on two-factor authentication (2FA).</strong>
+              Even if your password is stolen, the attacker still needs your phone or authenticator app to get in.
+            </li>
+            <li>
+              <strong>Update everything, quickly.</strong>
+              Most attacks exploit known bugs that were already fixed - updates close those doors.
+            </li>
+            <li>
+              <strong>Think before you click.</strong>
+              Urgent language, strange links and unexpected attachments are the classic phishing pattern.
+            </li>
+          </ul>
+          <a href="pages/main-content.html" class="btn btn-primary">Read the Full Topics</a>
+        </div>
+        <figure class="tips-media">
+          <img src="images/edited/security-team.png" alt="Security analysts monitoring multiple screens in a dark operations center" class="rounded-img">
+          <figcaption>Security operations centers watch for attacks around the clock - your habits are your personal version of the same defense.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ CTA STRIP ============ -->
+    <section class="cta-strip">
+      <div class="container cta-inner">
+        <div>
+          <h2>Have a Question About Staying Safe Online?</h2>
+          <p>Ask the team, or report a suspicious message you are not sure about.</p>
+        </div>
+        <a href="pages/contact.html" class="btn btn-light">Contact Team 6</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Cyber<span class="accent">Shield</span></span>
+        <p>An educational cybersecurity awareness website built with HTML, CSS and Adobe Photoshop.</p>
+      </div>
+      <nav class="footer-col" aria-label="Site pages">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/main-content.html">Topics</a>
+        <a href="pages/gallery.html">Gallery</a>
+        <a href="pages/before-after.html">Photoshop B&amp;A</a>
+        <a href="pages/contact.html">Contact</a>
+      </nav>
+      <nav class="footer-col" aria-label="Topics">
+        <h4>Topics</h4>
+        <a href="pages/main-content.html#cyber-intro">Cybersecurity Intro</a>
+        <a href="pages/main-content.html#password-security">Password Security</a>
+        <a href="pages/main-content.html#phishing-awareness">Phishing Awareness</a>
+        <a href="pages/main-content.html#data-protection">Data Protection</a>
+        <a href="pages/main-content.html#safe-practices">Safe Internet Practices</a>
+      </nav>
+      <div class="footer-col">
+        <h4>Project</h4>
+        <p>Team 6 &middot; G5/CS<br>Multimedia Course Mini Project<br>MTI - Faculty of Computers &amp; AI</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 CyberShield by Team 6. Educational project - not affiliated with any security vendor.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
